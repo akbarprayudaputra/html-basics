@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar Table</title>
+  </head>
+  <body>
+    <h1>Belajar Table</h1>
+    <table style="border: 1px solid black; text-align: center">
+      <colgroup>
+        <col span="2" style="background-color: yellow" />
+        <col style="background-color: aqua" />
+      </colgroup>
+      <thead>
+        <tr>
+          <td rowspan="2">No</td>
+          <td rowspan="2">Nama</td>
+          <td colspan="2">Nilai</td>
+        </tr>
+        <tr>
+          <td>Nilai Awal</td>
+          <td>Nilai Akhir</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Akbar</td>
+          <td>20</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Septia</td>
+          <td>90</td>
+          <td>100</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td></td>
+          <td>Total</td>
+          <td>110</td>
+          <td>150</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
